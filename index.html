@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8"/>
+<title>Meu primeiro projeto e minha descrição pessoal</title>
+</head>
+<body>
+  <p>Sou a Marina Micas Jardim e fiz esse projeto abaixo foi realizado com o PySimpleGUI a partir do módulo <strong>Dominando o PySimpleGUI<strong> e do Módulo [Extra] Criando Executávaies com o Python:</p>
+  <a href="https://drive.google.com/u/1/uc?id=1Rf0ExJT4Q1DF9NBMuow1Zx9Py5XB8SkF&export=download" target="_blank">Link do executável do meu primeiro projeto com a minha descrição pessoal</a>
+  <br>
+  <p>Caso não seja possível realizar o download por algum motivo, segue o meu código do projeto acima:</p>
+  <pre>
+  import PySimpleGUI as sg
+
+  sg.theme('Dark Blue 3')
+
+  layout = [
+      [sg.Text("Objetivos com a mentoria: \n Ter autonomia no desenvolvimento dos meus projetos e aprender a lidar com freelas. \n\n O quanto eu conheço o Python? \n Esse foi de fato meu primeiro projeto mais sério sem ajuda de ngm, bem na vdd tive ajuda das videos aulas do curso e do google rs \n\n O que busco aprender ou aprofundar? \n Quero poder ter o poder da automação com IA e aprendizagem de máquina nas mãos para criar ferramentas de UX e UI, e o Python é a sementinha rs.")],
+      [sg.Button("Ok")]
+  ]
+
+  window = sg.Window("Meu primeiro projeto e minha descrição pessoal", layout)
+
+  event = window.read()
+  </pre>
+</body>
+</html>
